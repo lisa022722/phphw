@@ -6,6 +6,8 @@
 		
 
 		echo '<form action=""  enctype="multipart/form-data"  method="post">'; //用post才會收到下面檔案
+		//enctype="multipart/form-data" 上傳檔案才要加
+
 
 
 			for($a=0;$a<$uploadnum;$a++){
